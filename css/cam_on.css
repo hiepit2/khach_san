@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    position: relative;
+    height: 500px;
+    
+}
+.main-top{
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+}
+p{
+    color: rgb(6, 119, 224);
+}
+.main-bottom{
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}

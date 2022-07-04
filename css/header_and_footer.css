@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+}
+body {
+  background-color: #fafafa;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.header-top {
+  background-color: #96c93d;
+}
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top .contact ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.header-top .contact li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s ease-in;
+}
+.header-top a:hover .fa-facebook-f {
+  color: #4267b2;
+  transition: all 0.4s ease-out;
+}
+.header-top a:hover .fa-instagram {
+  color: #e1306c;
+  transition: all 0.4s ease-out;
+}
+.header-top a:hover .fa-twitter {
+  color: #1da1f2;
+  transition: all 0.4s ease-out;
+}
+.header-top a:hover .fa-youtube {
+  color: #ff0000;
+  transition: all 0.4s ease-out;
+}
+.header-top .account ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.header-top .account .line {
+  border-right: 1px solid white;
+}
+.header-top .account a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.header-top .account a:hover {
+  color: black;
+}
+/* End header-top */
+header {
+  position: fixed;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.5s ease-in;
+  
+}
+header.sticky {
+  top: 0px;
+  background-color: #ececec;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 4px 6px #00000029;
+}
+.header-main .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-main .logo {
+  width: 37%;
+  padding-top: 10px;
+}
+.header-main .logo img {
+  width: 50%;
+}
+.header-main nav ul li {
+  display: inline-block;
+  padding: 25px 20px;
+}
+.header-main nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.4s ease-in-out;
+}
+.header-main nav ul li a:hover {
+  color: #5abf90;
+}
+.header-main .icon {
+  display: flex;
+}
+.header-main .search-icon i {
+  margin: 18px 18px 0 0;
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 100%;
+  border: 2px solid black;
+  transition: all 0.4s ease-in-out;
+}
+.search-input {
+  position: absolute;
+  top: 75px;
+  right: 70px;
+  display: none;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 6px #00000029;
+  z-index: 1000;
+}
+.search-input input {
+  border: 1px solid #cccccc;
+  padding: 10px 40px 10px 0;
+  text-indent: 10px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.search-input input:focus {
+  border: 1px solid #5abf90;
+}
+.search-input button {
+  border: none;
+  background: none;
+  position: absolute;
+}
+.search-input button i {
+  margin: 0;
+  position: relative;
+  top: 7px;
+  right: 35px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 0%;
+  border: none;
+  color: #555555;
+  transition: all 0.2s ease-in-out;
+}
+.search-input button i:hover {
+  color: #5abf90;
+  border: none;
+}
+.header-main .search-icon i:hover,
+.header-main .cart-icon i:hover {
+  color: #5abf90;
+  border: 2px solid #5abf90;
+}
+.header-main .cart-icon i {
+  margin: 18px 18px 0 0;
+  margin-top: 18px;
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 100%;
+  border: 2px solid black;
+  transition: all 0.4s ease-in-out;
+}
+/* End header */
+footer {
+  border-top: 1px solid #f0f0f0;
+  margin-top: 50px;
+}
+footer .container {
+  margin-top: 50px;
+  display: flex;
+}
+.collect-information {
+  width: 250px;
+}
+.logo-footer img {
+  width: 100%;
+}
+.content-conllect {
+  margin: 10px 0;
+}
+.collect-form input {
+  border: none;
+  border-radius: 10px;
+  text-indent: 10px;
+  background-color: #f0f0f0;
+  width: 250px;
+  height: 40px;
+}
+.collect-form button {
+  position: relative;
+  left: 208px;
+  top: -40px;
+  border: none;
+  background-color: #96c93d;
+  color: white;
+  height: 40px;
+  width: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.collect-form button:hover {
+  background-color: #5abf90;
+}
+.space,
+.social,
+.contact-footer {
+  margin: 5px 0 0 140px;
+}
+.title-space h3,
+.title-social h3,
+.title-contact h3 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.space-item li,
+.social-item li,
+.contact-item li {
+  list-style: none;
+  padding: 10px 0;
+}
+.space-item li a,
+.social-item li a,
+.contact-item li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: all 0.4s ease-in-out;
+}
+.space-item li a:hover,
+.contact-item li a:hover,
+.contact-item li a:hover i {
+  color: #5abf90;
+}
+.social-item li a i,
+.contact-item li a i {
+  color: #96c93d;
+  padding-right: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.social-item li .facebook:hover i,
+.social-item li .facebook:hover span {
+  color: #4267b2;
+}
+.social-item li .instagram:hover i,
+.social-item li .instagram:hover span {
+  color: #e1306c;
+}
+.social-item li .twitter:hover i,
+.social-item li .twitter:hover span {
+  color: #1da1f2;
+}
+.social-item li .youtube:hover i,
+.social-item li .youtube:hover span {
+  color: #ff0000;
+}
+.copyright {
+  text-align: center;
+  margin-top: 50px;
+  border-top: 1px solid #dddddd;
+}
+.copyright p {
+  padding: 10px 0;
+}

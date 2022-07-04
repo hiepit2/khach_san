@@ -1,0 +1,30 @@
+.home-top {
+    display: flex;
+    justify-content: center;
+    grid-gap: 60px;
+    cursor: pointer;
+}
+
+.home-main {
+    display: flex;
+    justify-content: center;
+    grid-gap: 60px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.home-botton {
+    display: flex;
+    justify-content: center;
+    grid-gap: 60px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.home-last {
+    display: flex;
+    justify-content: center;
+    grid-gap: 60px;
+    padding-top: 50px;
+    cursor: pointer;
+}

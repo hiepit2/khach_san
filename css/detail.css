@@ -1,0 +1,150 @@
+main {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 800px;
+    margin-left: 130px;
+}
+
+.i {
+    display: flex;
+}
+
+.text1 {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.text-top h1 {
+    color: #324b09;
+}
+
+strong {
+    font-size: 17px;
+}
+
+.text1 i {
+    margin-right: 4px;
+    padding-top: 3px;
+    margin-left: 5.7px;
+}
+
+.text1 a {
+    color: #96c93d;
+}
+
+.text2 {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.text2 i {
+    margin-right: 4px;
+    padding-top: 3px;
+}
+
+.text-top h1 {
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.text-top h1:hover {
+    color: #96c93d;
+    transition: all 0.6s linear;
+    cursor: pointer;
+}
+
+.text-main {
+    padding-top: 30px;
+}
+
+.right {
+    padding-top: 100px;
+}
+
+.text-box strong {
+    font-size: 27px;
+    margin-left: 80px;
+}
+
+.text-box {
+    padding-top: 30px;
+}
+
+.text-box span {
+    font-size: 19px;
+}
+
+.rooom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right button {
+    width: 325px;
+    height: 48px;
+    font-size: 18px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: #f67439 0px 4px 12px 0px;
+    color: #ffff;
+    background-image: linear-gradient( 90deg, #f65e38 0, #f68a39 51%, #f65e38);
+}
+
+.right button:hover {
+    background-image: linear-gradient( 90deg, #9b0e94 0, #f639b7 51%, #77194d);
+    box-shadow: #8b0d48 0px 4px 12px 0px;
+    transition: all 0.2s linear;
+}
+
+.box-sidebar {
+    width: 354px;
+    height: 370px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 130px;
+    background-color: #ebebeb;
+}
+
+.box-sidebar select {
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: 1px solid #ebebeb;
+    color: #222222;
+}
+
+.fo {
+    padding-top: 30px;
+}
+
+.fo input {
+    width: 140px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 16px;
+}
+
+.fo i {
+    margin-left: 7px;
+}
+
+.voucher input {
+    width: 325px;
+    height: 48px;
+    margin-left: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.voucher {
+    padding-bottom: 20px;
+}

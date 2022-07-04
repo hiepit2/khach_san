@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+}
+body {
+  background-color: #fafafa;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  z-index: 1;
+}
+.search-box {
+  margin-top: 50px;
+}
+.title-search h3 {
+  padding: 5px;
+  background-color: #96c93d;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 200px;
+}
+.quick-search {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: #64646f33 0px 7px 29px 0px;
+}
+.img-search img {
+  margin-right: 100px;
+  width: 50%;
+}
+.box-search h3 {
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+.item-search {
+  display: flex;
+}
+.location-house {
+  margin-top: 20px;
+}
+.room-type {
+  margin-top: 50px;
+}
+.location-house select,
+.room-type select,
+.room-price input,
+.search-btn button {
+  width: 300px;
+  height: 40px;
+  border: none;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #cccccc;
+  transition: all 0.5s ease;
+  position: relative;
+  font-size: 14px;
+}
+.location-house select,
+.room-type select {
+  text-indent: 10px;
+  padding-left: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.room-price input {
+  margin-top: 20px;
+  text-indent: 20px;
+}
+.search-btn button {
+  margin-top: 47px;
+  text-align: center;
+  color: white;
+  background-color: #96c93d;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.search-btn button:hover {
+  background-color: #5abf90;
+}
+/*Styling Selectbox*/
+.dropdown {
+  width: 300px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  transition: all 0.5s ease;
+  position: relative;
+  font-size: 14px;
+  color: #474747;
+  height: 100%;
+  text-align: left;
+}
+.dropdown .select {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+}
+.dropdown:hover {
+  box-shadow: 0 0 4px #cccccc;
+}
+.dropdown:active {
+  background-color: #f8f8f8;
+}
+.dropdown.active:hover,
+.dropdown.active {
+  box-shadow: 0 0 4px #cccccc;
+  border-radius: 2px 2px 0 0;
+  background-color: #f8f8f8;
+}
+.dropdown .dropdown-menu {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  margin-top: 1px;
+  box-shadow: 0 1px 2px #cccccc;
+  border-radius: 0 1px 2px 2px;
+  overflow: hidden;
+  display: none;
+  max-height: 144px;
+  overflow-y: auto;
+  z-index: 9;
+}
+.dropdown .dropdown-menu li {
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.dropdown .dropdown-menu {
+  padding: 0;
+  list-style: none;
+}
+.dropdown .dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}
+.dropdown .dropdown-menu li:active {
+  background-color: #e2e2e2;
+}
+/* End search-box */
